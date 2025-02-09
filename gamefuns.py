@@ -13,4 +13,4 @@ def SecondDecision(PlayerName, FirstChoice):
         print(f"\"Good, {PlayerName}. Glad you still have some reason about you. I'm sure you must be at least somewhat confused, but I think it's best if we rest for now and I'll answer your questions on the road in the morning.\" Your companion rises from next to you and, from the sounds of it, walks a few paces away before lying down. It's probably best you get some sleep as well.\n\nYou awaken in the morning to the sun's bright rays shining in through the mouth of a cave. While you still don't remember where or who you are, if your companion says it's best to get a move on, it's likely best to get moving.\n\"We've got a long walk east to get to Phalen, so I can likely answer some of your questions now.\"\n\n")
         return input("What do you want to ask?\n'1' What are we doing out here?\n'2' Who are you?\n")
     else:
-        print("Did you forget to follow instructions? Play properly or else this goes nowhere. You died from the head trauma.")
+        print("Did you forget to follow instructions? Follow the instructions on the input or it doesn't work. You died from the head trauma.")
