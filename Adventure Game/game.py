@@ -12,4 +12,6 @@ PlayerName = input("How would you like me to refer to you, user? \n")
 #Welcome them to the game, edit to fit the tone of the game later if needed
 print(f"Welcome to the adventure game {PlayerName}!\nYour adventure will begin shortly.")
 
-IntroductoryScript(PlayerName)
+#runs a function created in the library in gamesfun.py to run the beginning of the script, may need to learn a bit more about python returning for more advanced stats than just tracking each decision
+FirstChoice = gamefuns.IntroductoryScript(PlayerName)
+SecondChoice = gamefuns.SecondDecision(PlayerName, FirstChoice)
